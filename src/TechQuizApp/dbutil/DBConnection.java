@@ -21,7 +21,7 @@ public class DBConnection {
         try
         {
             Class.forName("oracle.jdbc.OracleDriver");
-            conn = DriverManager.getConnection("jdbc:oracle:thin:@//LAPTOP-GGNGDNPF:1521/xe","onlineexam","student");
+            conn = DriverManager.getConnection("jdbc:oracle:thin:@//LAPTOP:1521/xe","online","stud");
             JOptionPane.showMessageDialog(null,"Connected Successfully!");
         }
         catch(Exception e)
